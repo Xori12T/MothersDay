@@ -13,7 +13,7 @@ body {
 /* BOTH SIDEBARS */
 .left-sidebar,
 .right-sidebar {
-    width: 220px;
+    width: 250px;
     background: #ffc2d1;
 
     padding: 30px;
