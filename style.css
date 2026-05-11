@@ -201,3 +201,28 @@ img {
         font-size: 3rem;
     }
 }
+
+/* EXTERNAL TEXT BLOCK */
+.external-message {
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
+/* PHOTO GALLERY PAGE */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    max-width: 850px;
+    margin: 35px auto 0;
+}
+
+.photo-gallery .card {
+    min-height: 260px;
+    padding: 36px;
+    text-align: left;
+}
+
+.photo-gallery .card h2 {
+    text-align: center;
+}
